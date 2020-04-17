@@ -10,7 +10,7 @@ resource "ibm_container_cluster" "cluster" {
   lifecycle {
   ignore_changes = ["kube_version"]
   }
-  resource_group_id = "8f8d7c37ad0c4e29912f7057ea7f90cf"
+  resource_group_id = "6764d0853c60419180ba88daafce32c4"
 }
 
 data "ibm_container_cluster_config" "cluster_config" {
